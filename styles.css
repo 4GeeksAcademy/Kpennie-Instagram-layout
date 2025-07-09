@@ -1,0 +1,39 @@
+ .body {
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.post{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	height: 100vh;
+}
+.postheader{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.post-header-icons{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 5px;
+}
+.post img{
+	display: block;
+}
+.post-body-icons{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.post-body{
+
+}
+.p{ 
+   padding: 10px;
+ }
+
