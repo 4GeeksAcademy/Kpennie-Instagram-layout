@@ -1,168 +1,74 @@
- /* .body {
-	background: black;
-	display: flex;
-	justify-content: center;
-	align-content: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
 }
-.post{
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	height: 100vh;
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
-.postheader{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+
+.post {
+  width: 600px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.post-header-icons{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	padding: 5px;
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
-.post img{
-	display: block;
+
+.header-img i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #e44d26;
 }
-.post-body-icons{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+
+.header-name p {
+  margin: 0;
+  font-size: 12px;
+  color: #555;
 }
-.post-body{
 
+.header-icon {
+  margin-left: auto;
+  font-size: 20px;
+  color: #555;
 }
-.p{ 
-   padding: 10px;
- } */
 
-body { 
-
-  background-color: #000; 
-
-  display: flex; 
-
-  justify-content: center; 
-
-  padding: 40px; 
-
-  font-family: Arial, sans-serif; 
-
-} 
-
- 
-
-.post { 
-
-  background-color: #fff; 
-
-  width: 375px; 
-
-  border-radius: 8px; 
-
-  overflow: hidden; 
-
-  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-
-} 
-
- 
-
-.post-header { 
-
-  display: flex; 
-
-  align-items: center; 
-
-  padding: 12px; 
-
-  font-size: 16px; 
-
-  font-weight: bold; 
-
-} 
-
- 
-
-.post-header i.fa-html5 { 
-
-  font-size: 20px; 
-
-  margin-right: 8px; 
-
-} 
-
- 
-
-.options-icon { 
-
-  margin-left: auto; 
-
-} 
-
- 
-
-.post-image img { 
-
-  width: 100%; 
-
-  height: auto; 
-
-} 
-
- 
-
-.post-actions { 
-
-  display: flex; 
-
-  justify-content: space-between; 
-
-  padding: 10px 12px; 
-
-  font-size: 20px; 
-
-} 
-
- 
-
-.left-icons i { 
-
-  margin-right: 15px; 
-
-} 
-
- 
-
-.right-icon i { 
-
-  margin-left: auto; 
-
-} 
-
- 
-
-.likes { 
-
-  padding: 0 12px; 
-
-  font-size: 14px; 
-
-  margin-bottom: 5px; 
-
-} 
-
- 
-
-.description { 
-
-  padding: 0 12px 12px 12px; 
-
-  font-size: 13px; 
-
-  color: #333; 
-
-  line-height: 1.4; 
-
-} 
+.post-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-body {
+  padding: 10px 15px;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-icons i,
+.right-icon i {
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.left-icons i:hover,
+.right-icon i:hover {
+  color: #888;
+}
